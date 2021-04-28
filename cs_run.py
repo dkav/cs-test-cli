@@ -6,7 +6,7 @@ import os
 import sys
 
 
-CS_PATH = "..\\..\\circuitscape-repo\\circuitscape"
+CS_PATH = "..\\cs.py\\circuitscape"
 TST_PATH = (os.path.abspath(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 sys.path.append(os.path.join(TST_PATH, CS_PATH))
